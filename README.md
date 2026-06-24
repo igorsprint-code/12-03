@@ -37,6 +37,12 @@ WHERE payment_date >= '2005-06-16' AND payment_date <= '2005-06-29' AND amount <
 
 ### Решение
 
+```
+SELECT rental_date
+FROM rental
+ORDER BY rental_date DESC
+LIMIT 5
+```
 
 ---
 
