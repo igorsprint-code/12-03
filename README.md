@@ -57,6 +57,13 @@ LIMIT 5
 
 ### Решение
 
+```
+SELECT REPLACE(LOWER(first_name), 'll', 'pp')
+FROM customer
+WHERE first_name LIKE 'Kelly' OR first_name LIKE 'Willie';
+
+
+```
 ---
 
 
