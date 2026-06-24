@@ -8,6 +8,12 @@
 ### Решение
 
 
+```
+SELECT DISTINCT district
+FROM address
+WHERE district NOT LIKE '% %' AND district LIKE 'K%a';
+```
+
 ---
 
 
