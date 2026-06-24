@@ -23,6 +23,12 @@ WHERE district NOT LIKE '% %' AND district LIKE 'K%a';
 
 ### Решение
 
+```
+SELECT payment_date, amount
+FROM payment
+WHERE payment_date >= '2005-06-16' AND payment_date <= '2005-06-29' AND amount <= 10.00
+```
+
 ---
 
 ### Задание 3
